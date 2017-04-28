@@ -1,5 +1,5 @@
 {
-  "name": "good",
+  "name": "@bedegaming/game-server-good",
   "description": "Server and process monitoring plugin",
   "version": "7.1.0",
   "repository": "git://github.com/hapijs/good",
@@ -28,8 +28,10 @@
     "async": "2.1.x",
     "code": "4.x.x",
     "hapi": "16.x.x",
+    "json-bigint-string": "^1.0.0",
     "lab": "11.x.x",
-    "wreck": "10.x.x"
+    "moment": "^2.18.1",
+    "wreck": "12.x.x"
   },
   "scripts": {
     "test": "lab -m 5000 -t 100 -v -La code"
